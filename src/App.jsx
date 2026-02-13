@@ -7,6 +7,7 @@ import ComingSoon from "./sections/ComingSoon";
 import FirstVideo from "./sections/FirstVideo";
 import Jason from "./sections/Jason";
 import SecondVideo from "./sections/SecondVideo";
+import Lucia from "./sections/Lucia";
 
 // gsap plugins are not automatically active
 // you can register them using one single line of code
@@ -18,9 +19,12 @@ const App = () => {
     <main>
       <NavBar />
       <Hero />
+
       <FirstVideo />
       <Jason />
+
       <SecondVideo />
+      <Lucia />
     </main>
   );
 };

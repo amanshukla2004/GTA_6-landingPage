@@ -31,6 +31,7 @@ const Jason = () => {
         scrub: 3,
       },
       y: -300,
+      duration: 1,
       ease: "power1.inOut",
     } , '<');
   }, []);
