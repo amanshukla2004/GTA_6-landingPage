@@ -1,23 +1,30 @@
-
-import gsap from 'gsap'
-import { ScrollTrigger } from 'gsap/all'
+import gsap from "gsap";
+import { ScrollTrigger } from "gsap/all";
+import Hero from "./sections/hero";
+//import Hero2 from "./sections/Hero2";
+import NavBar from "./sections/NavBar";
+import ComingSoon from "./sections/ComingSoon";
 
 // gsap plugins are not automatically active
 // you can register them using one single line of code
 
 gsap.registerPlugin(ScrollTrigger);
 
-
-
-
-
 const App = () => {
   return (
     <main>
-      <div>
-          <h1 className='text-pink text-5xl'>Welcome to the world of GTA and GSAP !!</h1>
-      </div>
+      <NavBar />
+      <Hero />
+      {/* <ComingSoon /> */}
     </main>
-)}
+  );
+};
 
-export default App
+export default App;
+
+{
+  /* <nav>
+        <img src="/images/nav-logo.svg" className="scale-90" />
+        <img src="/images/menu.svg" className="w-10" />
+      </nav> */
+}
