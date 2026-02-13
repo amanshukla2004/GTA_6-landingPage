@@ -5,6 +5,7 @@ import Hero from "./sections/hero";
 import NavBar from "./sections/NavBar";
 import ComingSoon from "./sections/ComingSoon";
 import FirstVideo from "./sections/FirstVideo";
+import Jason from "./sections/Jason";
 
 
 // gsap plugins are not automatically active
@@ -20,6 +21,8 @@ const App = () => {
 
 
       <FirstVideo />
+
+      <Jason />
        
     </main>
   );
