@@ -8,7 +8,8 @@ const ComingSoon = () => {
             
           <h4 className="gradient-title">
             <br/> 
-            Coming <br /> May 26th <br /> 2026
+            
+            Coming <br />November 19th <br /> 2026
           </h4>
         </div>
 
