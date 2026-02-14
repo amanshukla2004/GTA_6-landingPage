@@ -8,6 +8,7 @@ import FirstVideo from "./sections/FirstVideo";
 import Jason from "./sections/Jason";
 import SecondVideo from "./sections/SecondVideo";
 import Lucia from "./sections/Lucia";
+import PostCard from "./sections/PostCard";
 
 // gsap plugins are not automatically active
 // you can register them using one single line of code
@@ -25,6 +26,7 @@ const App = () => {
 
       <SecondVideo />
       <Lucia />
+      <PostCard />
     </main>
   );
 };
