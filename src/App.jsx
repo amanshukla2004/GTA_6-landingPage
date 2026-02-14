@@ -1,15 +1,14 @@
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/all";
 import Hero from "./sections/hero";
-
 import NavBar from "./sections/NavBar";
-import ComingSoon from "./sections/ComingSoon";
 import FirstVideo from "./sections/FirstVideo";
 import Jason from "./sections/Jason";
 import SecondVideo from "./sections/SecondVideo";
 import Lucia from "./sections/Lucia";
 import PostCard from "./sections/PostCard";
 import Final from "./sections/Final";
+import Outro from "./sections/Outro";
 
 // gsap plugins are not automatically active
 // you can register them using one single line of code
@@ -29,6 +28,7 @@ const App = () => {
       <Lucia />
       <PostCard />
       <Final />
+      <Outro />
     </main>
   );
 };
