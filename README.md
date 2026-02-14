@@ -30,10 +30,21 @@ Optimized Performance: Lazy loading for media assets to ensure fast initial load
 
 ## 📂 Project Structure
 
-├── public/          # Static assets (Videos, high-res images)
+GTA_6-landingPage/
+├── public/
+│   ├── images/
+│   │   └── hero-bg.webp
+│   └── videos/
 ├── src/
-│   ├── components/  # Reusable UI components (Navbar, Hero, Footer)
-│   ├── assets/      # Icons and small images
-│   ├── App.jsx      # Main application logic
-│   └── index.css    # Global styles and Tailwind imports
-└── tailwind.config.js
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Hero.jsx
+│   │   └── Footer.jsx
+│   ├── assets/
+│   ├── App.jsx
+│   ├── main.jsx
+│   └── index.css
+├── index.html
+├── package.json
+├── tailwind.config.js
+└── vite.config.js
