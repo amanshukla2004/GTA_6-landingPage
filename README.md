@@ -1,6 +1,6 @@
 <div align="center">
 
-![GTA VI Landing Page Banner](file:///C:/Users/raj/.gemini/antigravity/brain/7e20e4ff-aa61-4380-8feb-186e99776531/gta_vi_readme_banner_1776396788045.png)
+![GTA VI Landing Page Banner](public/images/hero-bg.webp)
 
 # 🌴 GTA VI Cinematic Landing Page
 
