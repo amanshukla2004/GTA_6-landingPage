@@ -99,12 +99,7 @@ To get the project running locally, follow these simple steps:
 
 ---
 
-## 📸 Screenshots
 
-<div align="center">
-  <img src="https://via.placeholder.com/800x450?text=Hero+Section+Preview" width="48%" />
-  <img src="https://via.placeholder.com/800x450?text=Character+Reveal+Preview" width="48%" />
-</div>
 
 ---
 
