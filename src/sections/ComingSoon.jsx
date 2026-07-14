@@ -5,10 +5,10 @@ const ComingSoon = () => {
         <img src="/images/logo.webp" alt="logo" className="entrance-logo" />
 
         <div className="text-wrapper">
-            
+
           <h4 className="gradient-title">
-            <br/> 
-            
+            <br />
+
             Coming <br />November 19th <br /> 2026
           </h4>
         </div>

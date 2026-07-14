@@ -34,7 +34,7 @@ const Hero = () => {
       .to(".scale-out", { scale: 0.75, ease: "power1.inOut" })
       .to(".mask-wrapper", { maskSize: maskSize, ease: "power1.inOut" }, "<") // ?? -> wil start with previous animation
       .to(".mask-wrapper", { opacity: 0, ease: "expo.in" })
-      .to(".overlay-logo", { opacity: 1,onComplete: () => {gsap.to('.overlay-logo', {opacity:0})}, ease: "back.inOut" }, "<")
+      .to(".overlay-logo", { opacity: 1, onComplete: () => { gsap.to('.overlay-logo', { opacity: 0 }) }, ease: "back.inOut" }, "<")
       .to(
         ".entrance-message",
         {
